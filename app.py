@@ -1,5 +1,5 @@
 import streamlit as st
-import google.generativeai
+import google.generativeai as genai
 from PIL import Image
 import tempfile
 import os
@@ -347,4 +347,4 @@ if st.button("🚀 SOẠN GIÁO ÁN NGAY"):
 
 # --- CHÂN TRANG ---
 st.markdown("---")
-st.markdown("<div style='text-align: center; color: #666;'>© 2025 - Hà Văn Thủy - Trường PTDTBT Tiểu học Hùng Vân - ĐT: 037 9772 003</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; color: #666;'>© 2025 - Lù Seo Sần - Trường PTDTBT Tiểu học Bản Ngò - ĐT: 097 1986 343</div>", unsafe_allow_html=True)
